@@ -1,0 +1,5 @@
+D:/@SEM 2/OOP/test2_withGUI/t2-DenisaToarcas-1/cmake-build-debug/CMakeFiles/test2-DenisaToarcas-1.dir
+D:/@SEM 2/OOP/test2_withGUI/t2-DenisaToarcas-1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/@SEM 2/OOP/test2_withGUI/t2-DenisaToarcas-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/@SEM 2/OOP/test2_withGUI/t2-DenisaToarcas-1/cmake-build-debug/CMakeFiles/test2-DenisaToarcas-1_autogen_timestamp_deps.dir
+D:/@SEM 2/OOP/test2_withGUI/t2-DenisaToarcas-1/cmake-build-debug/CMakeFiles/test2-DenisaToarcas-1_autogen.dir
