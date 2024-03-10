@@ -1,0 +1,3 @@
+﻿  SortedBag.cpp
+D:\@SEM 2\SDA\SortedBag_project\SortedBag\SortedBag.cpp(43): warning C4715: 'SortedBag::remove': not all control paths return a value
+  SortedBag.vcxproj -> D:\@SEM 2\SDA\SortedBag_project\SortedBag\Debug\SortedBag.exe
