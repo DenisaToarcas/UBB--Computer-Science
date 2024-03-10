@@ -1,0 +1,5 @@
+D:/@SEM 2/OOP/Test_preparation/cmake-build-debug/CMakeFiles/Test_preparation.dir
+D:/@SEM 2/OOP/Test_preparation/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/@SEM 2/OOP/Test_preparation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/@SEM 2/OOP/Test_preparation/cmake-build-debug/CMakeFiles/Test_preparation_autogen_timestamp_deps.dir
+D:/@SEM 2/OOP/Test_preparation/cmake-build-debug/CMakeFiles/Test_preparation_autogen.dir
