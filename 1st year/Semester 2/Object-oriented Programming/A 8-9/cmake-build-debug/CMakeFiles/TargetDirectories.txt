@@ -1,0 +1,5 @@
+D:/@SEM 2/OOP/a89-DenisaToarcas/cmake-build-debug/CMakeFiles/a89-Denisa_Toarcas.dir
+D:/@SEM 2/OOP/a89-DenisaToarcas/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/@SEM 2/OOP/a89-DenisaToarcas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/@SEM 2/OOP/a89-DenisaToarcas/cmake-build-debug/CMakeFiles/a89-Denisa_Toarcas_autogen_timestamp_deps.dir
+D:/@SEM 2/OOP/a89-DenisaToarcas/cmake-build-debug/CMakeFiles/a89-Denisa_Toarcas_autogen.dir
