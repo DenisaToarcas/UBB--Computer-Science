@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Priority_Queue_dll", "Priority_Queue_dll.vcxproj", "{4F8CF4E4-8C5D-49C4-8DFB-A953077B6C09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F8CF4E4-8C5D-49C4-8DFB-A953077B6C09}.Debug|x64.ActiveCfg = Debug|x64
+		{4F8CF4E4-8C5D-49C4-8DFB-A953077B6C09}.Debug|x64.Build.0 = Debug|x64
+		{4F8CF4E4-8C5D-49C4-8DFB-A953077B6C09}.Debug|x86.ActiveCfg = Debug|Win32
+		{4F8CF4E4-8C5D-49C4-8DFB-A953077B6C09}.Debug|x86.Build.0 = Debug|Win32
+		{4F8CF4E4-8C5D-49C4-8DFB-A953077B6C09}.Release|x64.ActiveCfg = Release|x64
+		{4F8CF4E4-8C5D-49C4-8DFB-A953077B6C09}.Release|x64.Build.0 = Release|x64
+		{4F8CF4E4-8C5D-49C4-8DFB-A953077B6C09}.Release|x86.ActiveCfg = Release|Win32
+		{4F8CF4E4-8C5D-49C4-8DFB-A953077B6C09}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {097D8A9D-F5EA-4A82-98A2-0041524E9A73}
+	EndGlobalSection
+EndGlobal
