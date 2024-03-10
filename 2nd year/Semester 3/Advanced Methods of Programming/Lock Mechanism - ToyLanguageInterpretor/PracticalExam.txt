@@ -1,0 +1,4605 @@
+The program state ID is:27
+The ExeStack:
+((Ref int) a;(aH(a, 20);(for (v=0;v<3;v=v + 1) fork((print(v);v=v * rH(a)));print(rH(a)))))
+
+The SymTable:
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(Ref int) a
+(aH(a, 20);(for (v=0;v<3;v=v + 1) fork((print(v);v=v * rH(a)));print(rH(a))))
+
+The SymTable:
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(Ref int) a
+(aH(a, 20);(for (v=0;v<3;v=v + 1) fork((print(v);v=v * rH(a)));print(rH(a))))
+
+The SymTable:
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(aH(a, 20);(for (v=0;v<3;v=v + 1) fork((print(v);v=v * rH(a)));print(rH(a))))
+
+The SymTable:
+a-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(aH(a, 20);(for (v=0;v<3;v=v + 1) fork((print(v);v=v * rH(a)));print(rH(a))))
+
+The SymTable:
+a-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+aH(a, 20)
+(for (v=0;v<3;v=v + 1) fork((print(v);v=v * rH(a)));print(rH(a)))
+
+The SymTable:
+a-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+aH(a, 20)
+(for (v=0;v<3;v=v + 1) fork((print(v);v=v * rH(a)));print(rH(a)))
+
+The SymTable:
+a-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(for (v=0;v<3;v=v + 1) fork((print(v);v=v * rH(a)));print(rH(a)))
+
+The SymTable:
+a-->(1, int)
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(for (v=0;v<3;v=v + 1) fork((print(v);v=v * rH(a)));print(rH(a)))
+
+The SymTable:
+a-->(1, int)
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+for (v=0;v<3;v=v + 1) fork((print(v);v=v * rH(a)))
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+for (v=0;v<3;v=v + 1) fork((print(v);v=v * rH(a)))
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(int v;(v=0;while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)))
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(int v;(v=0;while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)))
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+int v
+(v=0;while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1))
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+int v
+(v=0;while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1))
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(v=0;while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1))
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(v=0;while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1))
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+v=0
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+v=0
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(fork((print(v);v=v * rH(a)));v=v + 1)
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(fork((print(v);v=v * rH(a)));v=v + 1)
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+fork((print(v);v=v * rH(a)))
+v=v + 1
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+fork((print(v);v=v * rH(a)))
+v=v + 1
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+v=v + 1
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:28
+The ExeStack:
+(print(v);v=v * rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+v=v + 1
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:28
+The ExeStack:
+(print(v);v=v * rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->1
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:28
+The ExeStack:
+print(v)
+v=v * rH(a)
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->1
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:28
+The ExeStack:
+print(v)
+v=v * rH(a)
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(fork((print(v);v=v * rH(a)));v=v + 1)
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->1
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+
+The Lock Table:
+
+
+The program state ID is:28
+The ExeStack:
+v=v * rH(a)
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(fork((print(v);v=v * rH(a)));v=v + 1)
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->1
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+
+The Lock Table:
+
+
+The program state ID is:28
+The ExeStack:
+v=v * rH(a)
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+fork((print(v);v=v * rH(a)))
+v=v + 1
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->1
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+
+The Lock Table:
+
+
+The program state ID is:28
+The ExeStack:
+
+The SymTable:
+a-->(1, int)
+v-->0
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+fork((print(v);v=v * rH(a)))
+v=v + 1
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->1
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+v=v + 1
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->1
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+
+The Lock Table:
+
+
+The program state ID is:29
+The ExeStack:
+(print(v);v=v * rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->1
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+v=v + 1
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->1
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+
+The Lock Table:
+
+
+The program state ID is:29
+The ExeStack:
+(print(v);v=v * rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->1
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->2
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+
+The Lock Table:
+
+
+The program state ID is:29
+The ExeStack:
+print(v)
+v=v * rH(a)
+
+The SymTable:
+a-->(1, int)
+v-->1
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->2
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+
+The Lock Table:
+
+
+The program state ID is:29
+The ExeStack:
+print(v)
+v=v * rH(a)
+
+The SymTable:
+a-->(1, int)
+v-->1
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(fork((print(v);v=v * rH(a)));v=v + 1)
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->2
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+
+The Lock Table:
+
+
+The program state ID is:29
+The ExeStack:
+v=v * rH(a)
+
+The SymTable:
+a-->(1, int)
+v-->1
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(fork((print(v);v=v * rH(a)));v=v + 1)
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->2
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+
+The Lock Table:
+
+
+The program state ID is:29
+The ExeStack:
+v=v * rH(a)
+
+The SymTable:
+a-->(1, int)
+v-->1
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+fork((print(v);v=v * rH(a)))
+v=v + 1
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->2
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+
+The Lock Table:
+
+
+The program state ID is:29
+The ExeStack:
+
+The SymTable:
+a-->(1, int)
+v-->20
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+fork((print(v);v=v * rH(a)))
+v=v + 1
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->2
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+v=v + 1
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->2
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+
+The Lock Table:
+
+
+The program state ID is:30
+The ExeStack:
+(print(v);v=v * rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->2
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+v=v + 1
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->2
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+
+The Lock Table:
+
+
+The program state ID is:30
+The ExeStack:
+(print(v);v=v * rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->2
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->3
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+
+The Lock Table:
+
+
+The program state ID is:30
+The ExeStack:
+print(v)
+v=v * rH(a)
+
+The SymTable:
+a-->(1, int)
+v-->2
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+while(v < 3) (fork((print(v);v=v * rH(a)));v=v + 1)
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->3
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+
+The Lock Table:
+
+
+The program state ID is:30
+The ExeStack:
+print(v)
+v=v * rH(a)
+
+The SymTable:
+a-->(1, int)
+v-->2
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->3
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+2
+
+The Lock Table:
+
+
+The program state ID is:30
+The ExeStack:
+v=v * rH(a)
+
+The SymTable:
+a-->(1, int)
+v-->2
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+2
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+print(rH(a))
+
+The SymTable:
+a-->(1, int)
+v-->3
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+2
+
+The Lock Table:
+
+
+The program state ID is:30
+The ExeStack:
+v=v * rH(a)
+
+The SymTable:
+a-->(1, int)
+v-->2
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+2
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+
+The SymTable:
+a-->(1, int)
+v-->3
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+2
+20
+
+The Lock Table:
+
+
+The program state ID is:30
+The ExeStack:
+
+The SymTable:
+a-->(1, int)
+v-->40
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+0
+1
+2
+20
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+((Ref int) v1;((Ref int) v2;(int x;(int q;(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))))))))))
+
+The SymTable:
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(Ref int) v1
+((Ref int) v2;(int x;(int q;(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))))))))))
+
+The SymTable:
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(Ref int) v1
+((Ref int) v2;(int x;(int q;(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))))))))))
+
+The SymTable:
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+((Ref int) v2;(int x;(int q;(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))))))))))
+
+The SymTable:
+v1-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+((Ref int) v2;(int x;(int q;(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))))))))))
+
+The SymTable:
+v1-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(Ref int) v2
+(int x;(int q;(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))))))))
+
+The SymTable:
+v1-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(Ref int) v2
+(int x;(int q;(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))))))))
+
+The SymTable:
+v1-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(int x;(int q;(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))))))))
+
+The SymTable:
+v2-->(0, int)
+v1-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(int x;(int q;(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))))))))
+
+The SymTable:
+v2-->(0, int)
+v1-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+int x
+(int q;(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))))))))
+
+The SymTable:
+v2-->(0, int)
+v1-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+int x
+(int q;(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))))))))
+
+The SymTable:
+v2-->(0, int)
+v1-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(int q;(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))))))))
+
+The SymTable:
+x-->0
+v2-->(0, int)
+v1-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(int q;(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))))))))
+
+The SymTable:
+x-->0
+v2-->(0, int)
+v1-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+int q
+(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))))))
+
+The SymTable:
+x-->0
+v2-->(0, int)
+v1-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+int q
+(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))))))
+
+The SymTable:
+x-->0
+v2-->(0, int)
+v1-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(0, int)
+v1-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(aH(v1, 20);(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(0, int)
+v1-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+aH(v1, 20)
+(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(0, int)
+v1-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+aH(v1, 20)
+(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(0, int)
+v1-->(0, int)
+
+The Heap:
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(0, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(aH(v2, 30);(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(0, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+aH(v2, 30)
+(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(0, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+aH(v2, 30)
+(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(0, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(newLock(x);(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+newLock(x)
+(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+newLock(x)
+(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+
+
+The program state ID is:27
+The ExeStack:
+(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+
+
+The program state ID is:27
+The ExeStack:
+(fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))));(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+
+
+The program state ID is:27
+The ExeStack:
+fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))))
+(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+
+
+The program state ID is:27
+The ExeStack:
+fork((fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))))
+(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+
+
+The program state ID is:27
+The ExeStack:
+(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+
+
+The program state ID is:28
+The ExeStack:
+(fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+
+
+The program state ID is:27
+The ExeStack:
+(newLock(q);(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+
+
+The program state ID is:28
+The ExeStack:
+(fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))));(lock(x);(wH(v1, rH(v1) * 10);unlock(x))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+
+
+The program state ID is:27
+The ExeStack:
+newLock(q)
+(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+
+
+The program state ID is:28
+The ExeStack:
+fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))))
+(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+
+
+The program state ID is:27
+The ExeStack:
+newLock(q)
+(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+
+
+The program state ID is:28
+The ExeStack:
+fork((lock(x);(wH(v1, rH(v1) - 1);unlock(x))))
+(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+
+
+The program state ID is:27
+The ExeStack:
+(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:28
+The ExeStack:
+(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:29
+The ExeStack:
+(lock(x);(wH(v1, rH(v1) - 1);unlock(x)))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+(fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))));(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:28
+The ExeStack:
+(lock(x);(wH(v1, rH(v1) * 10);unlock(x)))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:29
+The ExeStack:
+(lock(x);(wH(v1, rH(v1) - 1);unlock(x)))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))))
+(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:28
+The ExeStack:
+lock(x)
+(wH(v1, rH(v1) * 10);unlock(x))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:29
+The ExeStack:
+lock(x)
+(wH(v1, rH(v1) - 1);unlock(x))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+fork((fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))))
+(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:28
+The ExeStack:
+lock(x)
+(wH(v1, rH(v1) * 10);unlock(x))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:29
+The ExeStack:
+lock(x)
+(wH(v1, rH(v1) - 1);unlock(x))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:28
+The ExeStack:
+lock(x)
+(wH(v1, rH(v1) * 10);unlock(x))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:29
+The ExeStack:
+(wH(v1, rH(v1) - 1);unlock(x))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:30
+The ExeStack:
+(fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+(;(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:28
+The ExeStack:
+lock(x)
+(wH(v1, rH(v1) * 10);unlock(x))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:29
+The ExeStack:
+(wH(v1, rH(v1) - 1);unlock(x))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:30
+The ExeStack:
+(fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))));(lock(q);(wH(v2, rH(v2) * 10);unlock(q))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+
+(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:28
+The ExeStack:
+lock(x)
+(wH(v1, rH(v1) * 10);unlock(x))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:29
+The ExeStack:
+wH(v1, rH(v1) - 1)
+unlock(x)
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:30
+The ExeStack:
+fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))))
+(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+
+(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:28
+The ExeStack:
+lock(x)
+(wH(v1, rH(v1) * 10);unlock(x))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:29
+The ExeStack:
+wH(v1, rH(v1) - 1)
+unlock(x)
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:30
+The ExeStack:
+fork((lock(q);(wH(v2, rH(v2) + 5);unlock(q))))
+(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->20
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:28
+The ExeStack:
+lock(x)
+(wH(v1, rH(v1) * 10);unlock(x))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:29
+The ExeStack:
+unlock(x)
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:30
+The ExeStack:
+(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:31
+The ExeStack:
+(lock(q);(wH(v2, rH(v2) + 5);unlock(q)))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+(;(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:28
+The ExeStack:
+lock(x)
+(wH(v1, rH(v1) * 10);unlock(x))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:29
+The ExeStack:
+unlock(x)
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:30
+The ExeStack:
+(lock(q);(wH(v2, rH(v2) * 10);unlock(q)))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:31
+The ExeStack:
+(lock(q);(wH(v2, rH(v2) + 5);unlock(q)))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->29
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+
+(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->-1
+
+
+The program state ID is:28
+The ExeStack:
+(wH(v1, rH(v1) * 10);unlock(x))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->-1
+
+
+The program state ID is:29
+The ExeStack:
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->-1
+
+
+The program state ID is:30
+The ExeStack:
+lock(q)
+(wH(v2, rH(v2) * 10);unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->-1
+
+
+The program state ID is:31
+The ExeStack:
+lock(q)
+(wH(v2, rH(v2) + 5);unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+
+(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->-1
+
+
+The program state ID is:28
+The ExeStack:
+(wH(v1, rH(v1) * 10);unlock(x))
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->-1
+
+
+The program state ID is:30
+The ExeStack:
+lock(q)
+(wH(v2, rH(v2) * 10);unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->-1
+
+
+The program state ID is:31
+The ExeStack:
+lock(q)
+(wH(v2, rH(v2) + 5);unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->30
+
+
+The program state ID is:28
+The ExeStack:
+wH(v1, rH(v1) * 10)
+unlock(x)
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->30
+
+
+The program state ID is:30
+The ExeStack:
+(wH(v2, rH(v2) * 10);unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->30
+
+
+The program state ID is:31
+The ExeStack:
+lock(q)
+(wH(v2, rH(v2) + 5);unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->30
+
+
+The program state ID is:27
+The ExeStack:
+(;(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->30
+
+
+The program state ID is:28
+The ExeStack:
+wH(v1, rH(v1) * 10)
+unlock(x)
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->30
+
+
+The program state ID is:30
+The ExeStack:
+(wH(v2, rH(v2) * 10);unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->30
+
+
+The program state ID is:31
+The ExeStack:
+lock(q)
+(wH(v2, rH(v2) + 5);unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->19
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->30
+
+
+The program state ID is:27
+The ExeStack:
+
+(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->30
+
+
+The program state ID is:28
+The ExeStack:
+unlock(x)
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->30
+
+
+The program state ID is:30
+The ExeStack:
+wH(v2, rH(v2) * 10)
+unlock(q)
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->30
+
+
+The program state ID is:31
+The ExeStack:
+lock(q)
+(wH(v2, rH(v2) + 5);unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->30
+
+
+The program state ID is:27
+The ExeStack:
+
+(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->30
+
+
+The program state ID is:28
+The ExeStack:
+unlock(x)
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->30
+
+
+The program state ID is:30
+The ExeStack:
+wH(v2, rH(v2) * 10)
+unlock(q)
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->30
+
+
+The program state ID is:31
+The ExeStack:
+lock(q)
+(wH(v2, rH(v2) + 5);unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->30
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->28
+1-->30
+
+
+The program state ID is:27
+The ExeStack:
+(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->30
+
+
+The program state ID is:28
+The ExeStack:
+
+The SymTable:
+x-->0
+q-->0
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->30
+
+
+The program state ID is:30
+The ExeStack:
+unlock(q)
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->30
+
+
+The program state ID is:31
+The ExeStack:
+lock(q)
+(wH(v2, rH(v2) + 5);unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->30
+
+
+The program state ID is:27
+The ExeStack:
+(;(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->30
+
+
+The program state ID is:30
+The ExeStack:
+unlock(q)
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->30
+
+
+The program state ID is:31
+The ExeStack:
+lock(q)
+(wH(v2, rH(v2) + 5);unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->30
+
+
+The program state ID is:27
+The ExeStack:
+
+(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:30
+The ExeStack:
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:31
+The ExeStack:
+lock(q)
+(wH(v2, rH(v2) + 5);unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+
+(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:31
+The ExeStack:
+lock(q)
+(wH(v2, rH(v2) + 5);unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->31
+
+
+The program state ID is:31
+The ExeStack:
+(wH(v2, rH(v2) + 5);unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->31
+
+
+The program state ID is:27
+The ExeStack:
+(lock(x);(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q))))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->31
+
+
+The program state ID is:31
+The ExeStack:
+(wH(v2, rH(v2) + 5);unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->31
+
+
+The program state ID is:27
+The ExeStack:
+lock(x)
+(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->31
+
+
+The program state ID is:31
+The ExeStack:
+wH(v2, rH(v2) + 5)
+unlock(q)
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->31
+
+
+The program state ID is:27
+The ExeStack:
+lock(x)
+(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->31
+
+
+The program state ID is:31
+The ExeStack:
+wH(v2, rH(v2) + 5)
+unlock(q)
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->300
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->-1
+1-->31
+
+
+The program state ID is:27
+The ExeStack:
+(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->27
+1-->31
+
+
+The program state ID is:31
+The ExeStack:
+unlock(q)
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->27
+1-->31
+
+
+The program state ID is:27
+The ExeStack:
+(print(rH(v1));(unlock(x);(lock(q);(print(rH(v2));unlock(q)))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->27
+1-->31
+
+
+The program state ID is:31
+The ExeStack:
+unlock(q)
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->27
+1-->31
+
+
+The program state ID is:27
+The ExeStack:
+print(rH(v1))
+(unlock(x);(lock(q);(print(rH(v2));unlock(q))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->27
+1-->-1
+
+
+The program state ID is:31
+The ExeStack:
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->27
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+print(rH(v1))
+(unlock(x);(lock(q);(print(rH(v2));unlock(q))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+
+The Lock Table:
+0-->27
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+(unlock(x);(lock(q);(print(rH(v2));unlock(q))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+190
+
+The Lock Table:
+0-->27
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+(unlock(x);(lock(q);(print(rH(v2));unlock(q))))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+190
+
+The Lock Table:
+0-->27
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+unlock(x)
+(lock(q);(print(rH(v2));unlock(q)))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+190
+
+The Lock Table:
+0-->27
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+unlock(x)
+(lock(q);(print(rH(v2));unlock(q)))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+190
+
+The Lock Table:
+0-->27
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+(lock(q);(print(rH(v2));unlock(q)))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+190
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+(lock(q);(print(rH(v2));unlock(q)))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+190
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+lock(q)
+(print(rH(v2));unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+190
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+lock(q)
+(print(rH(v2));unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+190
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
+The program state ID is:27
+The ExeStack:
+(print(rH(v2));unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+190
+
+The Lock Table:
+0-->-1
+1-->27
+
+
+The program state ID is:27
+The ExeStack:
+(print(rH(v2));unlock(q))
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+190
+
+The Lock Table:
+0-->-1
+1-->27
+
+
+The program state ID is:27
+The ExeStack:
+print(rH(v2))
+unlock(q)
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+190
+
+The Lock Table:
+0-->-1
+1-->27
+
+
+The program state ID is:27
+The ExeStack:
+print(rH(v2))
+unlock(q)
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+190
+
+The Lock Table:
+0-->-1
+1-->27
+
+
+The program state ID is:27
+The ExeStack:
+unlock(q)
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+190
+305
+
+The Lock Table:
+0-->-1
+1-->27
+
+
+The program state ID is:27
+The ExeStack:
+unlock(q)
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+190
+305
+
+The Lock Table:
+0-->-1
+1-->27
+
+
+The program state ID is:27
+The ExeStack:
+
+The SymTable:
+x-->0
+q-->1
+v2-->(2, int)
+v1-->(1, int)
+
+The Heap:
+1-->190
+2-->305
+
+The FileTable:
+
+The Out list:
+190
+305
+
+The Lock Table:
+0-->-1
+1-->-1
+
+
