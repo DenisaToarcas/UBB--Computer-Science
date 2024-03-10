@@ -1,0 +1,32 @@
+     1                                  ;   Multiplications, divisions
+     2                                  ; 4.–a*a + 2*(b-1) – d
+     3                                  
+     4                                  bits 32 
+     5                                  
+     6                                  
+     7                                  global start        
+     8                                  
+     9                                  extern exit               
+    10                                  import exit msvcrt.dll    
+    11                                  
+    12                                  segment data use32 class=data
+    13 00000000 04                          a db 4
+    14 00000001 0C                          b db 12
+    15 00000002 06                          d db 6
+    16                                  segment code use32 class=code
+    17                                      start:
+    18 00000000 A0[00000000]                  mov al, [a]
+    19 00000005 F6E0                          mul al
+    20 00000007 66F7D8                        neg ax
+    21 0000000A 6689C1                        mov cx, ax
+    22 0000000D A0[01000000]                  mov al, [b]
+    23 00000012 2C01                          sub al, 1
+    24 00000014 B302                          mov bl, 2
+    25 00000016 F6E3                          mul bl        ;ax = al*bl => ax = 2*(b-1)
+    26 00000018 6601C8                        add ax, cx
+    27 0000001B 8A0D[02000000]                mov cl, [d]
+    28 00000021 B500                          mov ch, 0
+    29 00000023 6601C8                        add ax, cx
+    30                                        
+    31 00000026 6A00                            push    dword 0      
+    32 00000028 FF15[00000000]                  call    [exit]

@@ -1,0 +1,62 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ;   3. Two byte strings S1 and S2 are given. Obtain the string D by concatenating the elements of S1 from the left hand side to the right hand side and the elements of S2 from the right hand side to the left hand si
+     4                                  ;Example:
+     5                                  ;S1: 1, 2, 3, 4
+     6                                  ;S2: 5, 6, 7
+     7                                  ;D: 1, 2, 3, 4, 7, 6, 5
+     8                                  
+     9                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+    10                                  global start        
+    11                                  
+    12                                  ; declare external functions needed by our program
+    13                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+    14                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    15                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    16                                  
+    17                                  ; our data is declared here (the variables needed by our program)
+    18                                  segment data use32 class=data
+    19 00000000 31323334                    s1 db '1','2','3','4'
+    20                                      len_s1 equ $-s1
+    21                                      
+    22 00000004 353637                      s2 db '5','6','7'
+    23                                      len_s2 equ $-s2
+    24                                      
+    25 00000007 <res 00000007>              result resb $-$$
+    26                                      
+    27                                  ; our code starts here
+    28                                  segment code use32 class=code
+    29                                      start:
+    30                                          
+    31 00000000 BE00000000                      mov esi, 0          
+    32 00000005 B904000000                      mov ecx, len_s1         ;we put the length len_s1 in ECX in order to make the loop_1
+    33                                          
+    34 0000000A E321                            jecxz loop_2
+    35                                          
+    36                                          loop_1:
+    37 0000000C 8A86[00000000]                      mov al, [s1+esi]
+    38 00000012 8886[07000000]                      mov [result+esi], al
+    39 00000018 46                                  inc esi
+    40                                              
+    41 00000019 E2F1                            loop loop_1
+    42                                          
+    43 0000001B BE03000000                      mov esi, len_s2
+    44 00000020 4E                              dec esi
+    45 00000021 B903000000                      mov ecx, len_s2         ;we put the length len_s2 in ECX in order to make the loop_2
+    46 00000026 BB00000000                      mov ebx, 0
+    47                                          
+    48 0000002B E310                            jecxz end_of_program
+    49                                          
+    50                                          loop_2:
+    51 0000002D 8A86[04000000]                      mov al, [s2+esi]
+    52 00000033 8883[0B000000]                      mov [result+len_s1+ebx], al
+    53 00000039 4E                                  dec esi
+    54 0000003A 43                                  inc ebx
+    55                                              
+    56 0000003B E2F0                            loop loop_2
+    57                                         
+    58                                          
+    59                                          end_of_program:
+    60                                          
+    61 0000003D 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    62 0000003F FF15[00000000]                  call    [exit]       ; call exit to terminate the program

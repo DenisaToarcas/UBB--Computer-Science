@@ -1,0 +1,60 @@
+     1                                  bits 32 
+     2                                  
+     3                                  ; Write a program in assembly language which computes one of the following arithmetic expressions, considering the following domains for the variables (in the unsigned and signed representation).
+     4                                  
+     5                                  ; Multiplications, divisions - signed 
+     6                                  ; (8-a*b*100+c)/d+x
+     7                                  ; a,b,d-byte; c-doubleword; x-qword
+     8                                  
+     9                                  
+    10                                  global start        
+    11                                  
+    12                                  extern exit               
+    13                                  import exit msvcrt.dll    
+    14                                  
+    15                                  
+    16                                  segment data use32 class=data
+    17 00000000 02                         a db 2
+    18 00000001 01                         b db 1
+    19 00000002 D2000000                   c dd 210
+    20 00000006 12                         d db 18
+    21 00000007 0700000000000000           x dq 7
+    22                                  
+    23                                  segment code use32 class=code
+    24                                      start:
+    25 00000000 A0[00000000]                    mov al, [a]
+    26 00000005 8A1D[01000000]                  mov bl, [b]
+    27 0000000B F6EB                            imul bl      ;ax = a*b 
+    28                                          
+    29 0000000D 66BB6400                        mov bx, 100
+    30 00000011 66F7EB                          imul bx      ;dx : ax = a*b*100
+    31                                          
+    32 00000014 6652                            push dx
+    33 00000016 6650                            push ax
+    34 00000018 58                              pop eax     ;eax = a*b*100
+    35                                          
+    36 00000019 8B1D[02000000]                  mov ebx, [c]
+    37 0000001F B908000000                      mov ecx, 8
+    38 00000024 01CB                            add ebx, ecx        ;ebx = c+8
+    39                                          
+    40 00000026 19C3                            sbb ebx, eax  ;ebx = c+8-a*b*100
+    41                                          
+    42 00000028 A0[06000000]                    mov al, [d]
+    43 0000002D 6699                            cwd         ;ax = d
+    44 0000002F 98                              cwde        ;eax = d
+    45                                          
+    46 00000030 BA00000000                      mov edx, 0
+    47 00000035 89D9                            mov ecx, ebx
+    48 00000037 89C3                            mov ebx, eax
+    49 00000039 89C8                            mov eax, ecx    ;ebx = d && eax = c+8-a*b*100
+    50                                          
+    51 0000003B F7FB                            idiv ebx         ;edx : eax = (8-a*b*100+c)/d
+    52                                          
+    53 0000003D 8B1D[07000000]                  mov ebx, dword [x]
+    54 00000043 8B0D[0B000000]                  mov ecx, dword [x+4]
+    55                                          
+    56 00000049 11D8                            adc eax, ebx
+    57 0000004B 11CA                            adc edx, ecx
+    58                                          
+    59 0000004D 6A00                            push    dword 0      
+    60 0000004F FF15[00000000]                  call    [exit]       

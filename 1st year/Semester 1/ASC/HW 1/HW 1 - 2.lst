@@ -1,0 +1,30 @@
+     1                                  ;   Additions, subtractions
+     2                                  ;   4. (a-b)+(c-b-d)+d
+     3                                  
+     4                                  bits 32 
+     5                                  
+     6                                  
+     7                                  global start        
+     8                                  
+     9                                  extern exit               
+    10                                  import exit msvcrt.dll    
+    11                                  
+    12                                  segment data use32 class=data
+    13 00000000 07                          a db 7          ;in a byte we can store up to 2^9 - 1
+    14 00000001 06                          b db 6
+    15 00000002 13                          c db 19
+    16 00000003 0B                          d db 11
+    17                                      
+    18                                  segment code use32 class=code
+    19                                      start:
+    20 00000000 A0[00000000]                   mov al, [a]
+    21 00000005 2A05[01000000]                 sub al, [b]
+    22 0000000B A2[00000000]                   mov [a], al
+    23 00000010 A0[02000000]                   mov al, [c]
+    24 00000015 2A05[01000000]                 sub al, [b]
+    25 0000001B 2A05[03000000]                 sub al, [d]
+    26 00000021 0005[00000000]                 add [a], al
+    27 00000027 A0[03000000]                   mov al, [d]
+    28 0000002C 0005[00000000]                 add [a], al
+    29 00000032 6A00                            push    dword 0      
+    30 00000034 FF15[00000000]                  call    [exit]       
