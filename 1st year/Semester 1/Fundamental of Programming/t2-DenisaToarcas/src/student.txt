@@ -1,0 +1,6 @@
+101 Badescu Mihai 13 9
+102 Avram Ionut 13 9
+103 Vaxim Raluca 12 8
+104 Popescu Roxana 10 10
+105 Popescu Andrei 9 10
+106 Popescu abc 8 10
