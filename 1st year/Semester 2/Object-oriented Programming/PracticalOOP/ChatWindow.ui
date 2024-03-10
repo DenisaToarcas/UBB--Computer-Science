@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReportsWidget</class>
+ <widget class="QWidget" name="ReportsWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>329</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QListWidget" name="ReportListWidget"/>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="AddButton">
+       <property name="text">
+        <string>Add</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="DescriptionLineEdit"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="LatitudeLineEdit"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="LongitudeLineEdit"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="SendButton">
+       <property name="text">
+        <string>Send</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="MessageLIneEdit"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>AddButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ReportsWidget</receiver>
+   <slot>AddReport()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>69</x>
+     <y>273</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>178</x>
+     <y>321</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>SendButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ReportsWidget</receiver>
+   <slot>SendMessage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>49</x>
+     <y>314</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>111</x>
+     <y>326</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>AddReport()</slot>
+  <slot>SendMessage()</slot>
+ </slots>
+</ui>

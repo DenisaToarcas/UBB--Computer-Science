@@ -1,0 +1,5 @@
+D:/PracticalOOP/cmake-build-debug/CMakeFiles/PracticalOOP.dir
+D:/PracticalOOP/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/PracticalOOP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/PracticalOOP/cmake-build-debug/CMakeFiles/PracticalOOP_autogen_timestamp_deps.dir
+D:/PracticalOOP/cmake-build-debug/CMakeFiles/PracticalOOP_autogen.dir
