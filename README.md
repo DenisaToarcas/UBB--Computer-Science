@@ -1,2 +1,2 @@
 # UBB--Computer-Science
-Labs and work done during University
+Laboratory work done during University
