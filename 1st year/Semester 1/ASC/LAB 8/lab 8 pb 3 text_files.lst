@@ -1,0 +1,109 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; LAB 8
+     4                                  ;PROBLEM NO. 3:
+     5                                  ;A text file is given. Read the content of the file, count the number of even digits and display the result on the screen. The name of text file is defined in the data segment.
+     6                                  
+     7                                  
+     8                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     9                                  global start        
+    10                                  
+    11                                  ; declare external functions needed by our program
+    12                                  extern exit, fread, printf, fopen, perror, fclose             ; tell nasm that exit exists even if we won't be defining it
+    13                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    14                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    15                                  import fread msvcrt.dll
+    16                                  import printf msvcrt.dll
+    17                                  import fopen msvcrt.dll
+    18                                  import perror msvcrt.dll
+    19                                  import fclose msvcrt.dll
+    20                                  
+    21                                  ; our data is declared here (the variables needed by our program)
+    22                                  segment data use32 class=data
+    23 00000000 696E7075745F66696C-         f_in db "input_file.txt", 0
+    23 00000009 652E74787400       
+    24 0000000F 7200                        r db "r", 0
+    25 00000011 00000000                    fd_in dd 0
+    26 00000015 257300                      s_format db "%s", 0
+    27 00000018 4552524F5200                err_msg db "ERROR", 0
+    28 0000001E <res 00000064>              buf resb 100
+    29 00000082 256400                      format db "%d", 0
+    30                                  
+    31                                  
+    32                                  ; our code starts here
+    33                                  segment code use32 class=code
+    34                                      start:
+    35                                          
+    36                                      ;open the files   
+    37 00000000 68[0F000000]                    push r
+    38 00000005 68[00000000]                    push f_in
+    39 0000000A FF15[00000000]                  call [fopen]
+    40 00000010 83C408                          add esp, 4*2
+    41 00000013 83F800                          cmp eax, 0
+    42 00000016 7450                            je .error
+    43 00000018 A3[11000000]                    mov [fd_in], eax
+    44                                          
+    45 0000001D 31DB                            xor ebx, ebx
+    46                                          
+    47                                      ;read the content of the file
+    48                                          .loop:
+    49 0000001F FF35[11000000]                  push dword [fd_in]
+    50 00000025 6A64                            push 100
+    51 00000027 6A01                            push 1
+    52 00000029 68[1E000000]                    push buf
+    53 0000002E FF15[00000000]                  call [fread]
+    54 00000034 83C410                          add esp, 4*4
+    55 00000037 83F800                          cmp eax, 0
+    56 0000003A 743A                            je .end
+    57 0000003C 89C1                            mov ecx, eax
+    58 0000003E E336                            jecxz .end
+    59 00000040 BE[1E000000]                    mov esi, buf
+    60                                          
+    61                                          .parse:
+    62 00000045 AC                              lodsb
+    63                                          
+    64 00000046 3C30                            cmp al, '0'
+    65 00000048 7412                            je .even_digit
+    66 0000004A 3C32                            cmp al, '2'
+    67 0000004C 740E                            je .even_digit
+    68 0000004E 3C34                            cmp al, '4'
+    69 00000050 740A                            je .even_digit
+    70 00000052 3C36                            cmp al, '6'
+    71 00000054 7406                            je .even_digit
+    72 00000056 3C38                            cmp al, '8'
+    73 00000058 7402                            je .even_digit
+    74 0000005A EB01                            jmp .not_even
+    75                                          
+    76                                          .even_digit:
+    77 0000005C 43                              inc ebx
+    78                                          
+    79                                          .not_even:
+    80                                  		
+    81 0000005D E2E6                    		loop .parse
+    82                                          
+    83                                          
+    84 0000005F EBBE                            jmp .loop
+    85                                          
+    86 00000061 83FB00                          cmp ebx, 0
+    87 00000064 7510                            jne .end
+    88 00000066 EB0E                            jmp .end
+    89                                          
+    90                                          .error:
+    91 00000068 68[18000000]                    push err_msg
+    92 0000006D FF15[00000000]                  call [perror]
+    93 00000073 83C404                          add esp, 4*1
+    94                                          
+    95                                          .end:
+    96                                          ;closing the file
+    97 00000076 FF35[11000000]                  push dword [fd_in]
+    98 0000007C FF15[00000000]                  call [fclose]
+    99 00000082 83C404                          add esp, 4*1
+   100                                          
+   101                                          ;printing on the screen the number of even digits
+   102 00000085 53                              push ebx
+   103 00000086 68[82000000]                    push format
+   104 0000008B FF15[00000000]                  call [printf]
+   105 00000091 83C408                          add esp, 4*2
+   106                                          
+   107 00000094 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+   108 00000096 FF15[00000000]                  call    [exit]       ; call exit to terminate the program
