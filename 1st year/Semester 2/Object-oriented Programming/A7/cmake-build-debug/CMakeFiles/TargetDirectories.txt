@@ -1,0 +1,3 @@
+D:/@SEM 2/OOP/a7-DenisaToarcas-1/cmake-build-debug/CMakeFiles/a7_DenisaToarcas_1.dir
+D:/@SEM 2/OOP/a7-DenisaToarcas-1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/@SEM 2/OOP/a7-DenisaToarcas-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
