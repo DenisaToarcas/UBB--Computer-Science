@@ -7,7 +7,7 @@ Laboratory work done during University
 
 2nd year:
 - Semester 3: MAP, DB and PLF
-- Semester 4: AI, Web, ISS and SGBD
+- Semester 4: MPP, AI, Web, ISS and SGBD
 
 3rd year:
 - Semester 5
