@@ -1,0 +1,68 @@
+GRAPH1K.TXT
+The minimum length between 1 and 100 is = 6
+The path is:
+1
+5
+487
+175
+699
+624
+100
+
+The minimum length between 100 and 1 is = 5
+The path is:
+100
+416
+354
+865
+109
+1
+
+GRAPH10K.TXT
+The minimum length between 1 and 100 is = 8
+The path is:
+1
+3300
+2607
+523
+6311
+5359
+9794
+5173
+100
+
+The minimum length between 100 and 1 is = 7
+The path is:
+100
+2398
+3054
+5232
+8217
+2478
+7151
+1
+
+GRAPH100K.TXT
+The minimum length between 1 and 100 is = 8
+The path is:
+1
+17024
+27471
+14969
+3075
+4156
+32753
+14973
+100
+
+The minimum length between 100 and 1 is = 8
+The path is:
+100
+44340
+54527
+6606
+53263
+95930
+98655
+58288
+1

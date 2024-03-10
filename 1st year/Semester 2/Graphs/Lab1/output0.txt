@@ -1,0 +1,8 @@
+<bound method TripleDictGraph.number_of_vertices of <TripleDictGraph.TripleDictGraph object at 0x00000285F95D7040>> <bound method TripleDictGraph.number_of_edges of <TripleDictGraph.TripleDictGraph object at 0x00000285F95D7040>>
+2 1 10
+4 1 10
+  2 3
+  4 5
+  3 7
+  5 8
+  6 7

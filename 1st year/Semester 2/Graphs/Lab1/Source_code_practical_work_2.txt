@@ -1,0 +1,28 @@
+def lowest_length_path(graph: TripleDictGraph, starting_vertex: int, ending_vertex: int):
+    queue = deque()
+    queue.append(ending_vertex)
+    visited_vertices = {ending_vertex: 0}
+    """visited_vertices dictionary contains as keys the vertices that are visited during 
+    performing the BFS algorithm and the values represent the distance from the ending vertex
+    to them"""
+
+    while queue:
+        current_vertex = queue.popleft()
+        for neighbour in graph.dictionary_in[current_vertex]:
+            if neighbour not in visited_vertices:
+                visited_vertices[neighbour] = visited_vertices[current_vertex] + 1
+                queue.append(neighbour)
+
+                if neighbour == starting_vertex:
+                    path = [starting_vertex]
+                    """I create a list that contains the vertices which represent the path
+                    between the starting and ending vertex"""
+                    while path[-1] != ending_vertex:
+                        for neighbour1 in graph.dictionary_out[path[-1]]:
+                            if neighbour1 in visited_vertices and visited_vertices[neighbour1] == visited_vertices[path[-1]] - 1:
+                                path.append(neighbour1)
+                                break
+
+                    return path, visited_vertices[starting_vertex]
+                """I return the path and also the minimum length"""
+    raise Exception("There is no path between these vertices")
