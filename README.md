@@ -6,7 +6,7 @@ Laboratory work done during University
 - Semester 2: OOP, DSA and Graphs
 
 2nd year:
-- Semester 3: MAP and DB
+- Semester 3: MAP, DB and PLF
 - Semester 4: AI, Web, ISS and SGBD
 
 3rd year:
