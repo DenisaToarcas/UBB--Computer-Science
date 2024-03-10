@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="a45_DenisaToarcas"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a45_DenisaToarcas">
+				<Option output="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/a45_DenisaToarcas.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/.idea"/>
+					<Add directory="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 a45_DenisaToarcas"/>
+					<CompileFile command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a45_DenisaToarcas/fast">
+				<Option output="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/a45_DenisaToarcas.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/.idea"/>
+					<Add directory="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 a45_DenisaToarcas/fast"/>
+					<CompileFile command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/@SEM 2/OOP/CLion 2022.3.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/Duration.cpp">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/Duration.h">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/Repository.cpp">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/Repository.h">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/Service.cpp">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/Service.h">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/TestService.cpp">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/TestService.h">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/TestTutorial.cpp">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/TestTutorial.h">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/TestUSER.cpp">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/TestUSER.h">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/TestsRepo.cpp">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/TestsRepo.h">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/Tutorial.cpp">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/Tutorial.h">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/UI.cpp">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/UI.h">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/start_of_program.cpp">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/userRepo.cpp">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/userRepo.h">
+			<Option target="a45_DenisaToarcas"/>
+		</Unit>
+		<Unit filename="D:/@SEM 2/OOP/a6-DenisaToarcas-1/a6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
