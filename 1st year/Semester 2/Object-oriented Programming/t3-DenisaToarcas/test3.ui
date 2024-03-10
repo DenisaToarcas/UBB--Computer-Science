@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>test3</class>
+ <widget class="QMainWindow" name="test3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>538</width>
+    <height>475</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0" colspan="2">
+     <widget class="QListWidget" name="ShoppingList1"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="CategoryLabel">
+      <property name="text">
+       <string>Category</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="CategoryLineEdit"/>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <widget class="QPushButton" name="ShowButton">
+      <property name="text">
+       <string>Show all given category</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>538</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>ShowButton</sender>
+   <signal>clicked()</signal>
+   <receiver>test3</receiver>
+   <slot>ShowCategory()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>236</x>
+     <y>416</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>521</x>
+     <y>444</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>ShowCategory()</slot>
+ </slots>
+</ui>
