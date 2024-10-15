@@ -78,6 +78,8 @@ By having both offline and online functionality, the app ensures users can manag
 
 ## App MockUp
 
+Check the design here: https://www.canva.com/design/DAGTrCscsrU/0l2JM3fBAOZdbXW4I6MLJg/edit
+
 **Main Page**
 
 ![TripTracker](https://github.com/user-attachments/assets/742ff5f8-0839-4528-b1bf-ecdfb79e5a91)
