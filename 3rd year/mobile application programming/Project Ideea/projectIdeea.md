@@ -34,11 +34,11 @@ Fields for a **Trip** entity:
   - **Start Date**: `datetime` – The start date of the trip.
   - **End Date**: `datetime` – The end date of the trip.
   - **Key Stops**: `list of strings` – Stops or important places the user plans to visit during the trip.
-  - **Notes**: `string` – Additional notes or details about the trip.
+  - **Notes**: `string` – Additional notes or details about the trip. The user can include information about prices or the budget needed for the trip itself, or may use the notes as an items' list for when he's packing.
 
 ### Actions (CRUD Operations)
 1. **Create/Add Trip:**  
-   Allows users to create a new trip with all the necessary details.
+   Allows users to create and add a new trip with all the necessary details.
    
 2. **Read/View Trips:**  
    Shows a list of all registered trips, allowing users to see them in summary form.
