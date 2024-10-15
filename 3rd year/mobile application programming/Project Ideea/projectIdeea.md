@@ -31,9 +31,9 @@ This mobile application will help users plan trips and keep track of their trave
 ### Entity to be Persisted: `Trip`
 Fields for a **Trip** entity:
   - **Destination**: `string` – The name of the destination city or country.
-  - **Start Date**: `datetime` – The start date of the trip.
-  - **End Date**: `datetime` – The end date of the trip.
-  - **Key Stops**: `list of strings` – Stops or important places the user plans to visit during the trip.
+  - **Start Date**: `date` – The start date of the trip.
+  - **End Date**: `date` – The end date of the trip.
+  - **Key Stops**: `string` – Stops or important places the user plans to visit during the trip.
   - **Notes**: `string` – Additional notes or details about the trip. The user can include information about prices or the budget needed for the trip itself, or may use the notes as an items' list for when he's packing.
 
 ### Actions (CRUD Operations)
