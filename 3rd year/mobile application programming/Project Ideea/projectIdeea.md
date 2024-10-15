@@ -74,3 +74,15 @@ The application will support offline access with the following behaviors:
 
 By having both offline and online functionality, the app ensures users can manage their trips regardless of their connectivity status.
 
+---
+
+## App MockUp
+
+**Main Page**
+
+![TripTracker](https://github.com/user-attachments/assets/742ff5f8-0839-4528-b1bf-ecdfb79e5a91)
+
+
+**Add a new trip page**
+
+![TripTracker (1)](https://github.com/user-attachments/assets/e5eace21-d5d8-4ef3-8c4b-733cbb974fa8)
