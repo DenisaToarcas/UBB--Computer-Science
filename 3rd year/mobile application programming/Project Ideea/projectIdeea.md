@@ -6,7 +6,7 @@ This mobile application will help users plan trips and keep track of their trave
 
 ### Main Features
 1. **View All Trips (Main Screen):**
-   - The user can see a list of all registered trips. Each trip will display essential information like destination, date, and key stops.
+   - The user can see a list of all registered trips. Each trip will display essential information like destination and date.
    - A button on the main screen will navigate the user to a "New Trip" page where they can add a new trip to the app.
 
 2. **Add Trip:**
