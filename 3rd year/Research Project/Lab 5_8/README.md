@@ -1,9 +1,9 @@
 
-### Exploring the Influence of Social Media on Destination Choices
-# Lab 5_8
+# Exploring the Influence of Social Media on Destination Choices
+## Lab 5_8
 
-## SECTION I. Modeling of the Experimental Part
-# 1. Introduction to the Model
+# SECTION I. Modeling of the Experimental Part
+### 1. Introduction to the Model
 This chapter describes the detailed modeling and implementation of the research methodology, focusing on the influence of social media on destination choices. The study uses Barcelona and Lisbon as case studies to demonstrate the applicability of the proposed approach.
 The goal is to simulate and analyze how social media posts related to these destinations influence potential tourists' preferences. The study evaluates the effectiveness of various social media elements (e.g., hashtags, visuals, user engagement) using a computational model based on evolutionary principles.
 2. Detailed Modeling
@@ -80,10 +80,10 @@ Triangulation will be employed using:
 •	Studies linking social media influence with travel behavior.
 ________________________________________
 
-### SECTION II. Research Case
+# SECTION II. Research Case
 ## A. Initial Experiment
 Objective: Analyze the effect of specific hashtags and content formats on engagement rates.
-# 1.	Dataset: A sample of 200 social media posts related to travel. 
+## 1.	Dataset: A sample of 200 social media posts related to travel. 
 Using the defined methodology, we collected 100 social media posts related to Barcelona. 
 Key hashtags included:
 #BarcelonaTravel
@@ -94,7 +94,7 @@ Key hashtags included:
 #LisbonViews
 #PastelDeNata
 #LisbonTravel
-# 2.	Parameters:
+## 2.	Parameters:
 o	Initial population size: 200 posts.
 o	Generations: 5 iterations.
 o	Mutation probability: 10%.
@@ -119,14 +119,14 @@ o	Crossover probability: 20%.
 o	Engagement rates.
 o	Conversion rates.
 
-### CONCLUSIONS
+## CONCLUSIONS
 The experiments on initial datasets validate the proposed methodology:
 1.	Effectiveness of the Fitness Function: Empirical evidence shows a correlation between high fitness scores and user engagement.
 2.	Impact of Hashtags: Posts with relevant hashtags significantly influence user behavior.
 3.	Social Media Dynamics: The evolutionary approach successfully models the propagation of social media trends.
 
 ________________________________________
-### SECTION III. Related Work
+# SECTION III. Related Work
 1.	"The Power of Social Media in Tourism Marketing": Explores how engagement drives destination choices.
 2.	"The Role of Instagram in Travel Trends": Highlights visual appeal and hashtags as critical factors.
 3.	YouTube Content Simulations: Similar to the presented model but focused on generic product marketing.
