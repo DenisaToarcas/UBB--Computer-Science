@@ -1,18 +1,27 @@
 import tweepy
 import pandas as pd
 import random
+import time
 
 #Setup: Required Libraries
 
 # Setup API credentials
-API_KEY = ''
-API_SECRET = ''
-ACCESS_TOKEN = ''
-ACCESS_SECRET = ''
+API_KEY = '5YCWRF9yuVwM3N4NpKVGvMdkL'
+API_SECRET = 'j7ivWM40L7aQrOznWtaEvj89wfoVAJP0XD0VzE5KTbpDVqZp1x'
+ACCESS_TOKEN = '1859614089036668928-2BRBizZzqXgxk1aLqGdiTTxSwdSJJm'
+ACCESS_SECRET = '2SshBhYh0NFFBPy7r5p3v4G9vkwz7eQ7wqF23j1WnrOU1'
+BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAM1oxAEAAAAA0E9d5s6YtCHppDc1XaBuXq%2FSwsM%3DIrsUllFCWrgR7NtwOmfjywK6W6Ul0rI5U3bkPJYAixnxzbVdkR'
 
 # Authenticate
 auth = tweepy.OAuth1UserHandler(API_KEY, API_SECRET, ACCESS_TOKEN, ACCESS_SECRET)
 api = tweepy.API(auth)
+
+#api = tweepy.API(auth)
+#rate_limit = api.rate_limit_status()
+#print(rate_limit)
+
+# Authenticate using the Bearer Token
+client = tweepy.Client(bearer_token=BEARER_TOKEN)
 
 # Parameters for the experiment
 DESTINATIONS = ['Barcelona', 'Lisbon']
@@ -22,15 +31,28 @@ HASHTAGS = {
 }
 
 # Data Collection
-def collect_tweets(destination, hashtags, count=100):
+def collect_tweets(destination, hashtags, count=50):
     """
     Collect tweets for a given destination and hashtags.
     """
-    query = f"{' OR '.join(hashtags)} -filter:retweets"
-    tweets = tweepy.Cursor(api.search_tweets, q=query, lang="en", tweet_mode='extended').items(count)
+    #query = f"{' OR '.join(hashtags)} -filter:retweets"
+    #tweets = tweepy.Cursor(api.search_tweets, q=query, lang="en", tweet_mode='extended').items(count)
+
+    query = f"({' OR '.join([f'#{tag}' for tag in hashtags])}) -is:retweet"
+    response = client.search_recent_tweets(query=query, max_results=min(count, 50), tweet_fields=['created_at', 'public_metrics'])
+
+    """
+    Collect tweets from the authenticated user's timeline.
+    Filter based on destination-related hashtags.
+    
+    tweets = api.user_timeline(count=count, tweet_mode='extended')
+    """
+
+    if response.data is None:
+        return pd.DataFrame()  # Return empty dataframe if no tweets are found
 
     data = []
-    for tweet in tweets:
+    """for tweet in tweets:
         data.append({
             'destination': destination,
             'created_at': tweet.created_at,
@@ -38,16 +60,34 @@ def collect_tweets(destination, hashtags, count=100):
             'engagement': tweet.favorite_count + tweet.retweet_count,
             'hashtags': [hashtag['text'] for hashtag in tweet.entities['hashtags']]
         })
+        """
+
+    for tweet in response.data:
+        metrics = tweet.public_metrics
+        data.append({
+            'destination': destination,
+            'created_at': tweet.created_at,
+            'text': tweet.text,
+            'engagement': metrics['like_count'] + metrics['retweet_count'],
+            'hashtags': [hashtag['text'] for hashtag in tweet.entities['hashtags']]
+        })
+
 
     return pd.DataFrame(data)
 
 # Collect data for both destinations
-barcelona_data = collect_tweets('Barcelona', HASHTAGS['Barcelona'], count=100)
-lisbon_data = collect_tweets('Lisbon', HASHTAGS['Lisbon'], count=100)
+barcelona_data = collect_tweets('Barcelona', HASHTAGS['Barcelona'], count=50)
+lisbon_data = collect_tweets('Lisbon', HASHTAGS['Lisbon'], count=50)
 
 # Combine the datasets
 all_data = pd.concat([barcelona_data, lisbon_data])
 all_data.to_csv('data/social_media_data.csv', index=False)
+#barcelona_data.to_csv('data/barcelona_data.csv')
+
+#barcelona_mockup_data = pd.read_csv('data/barcelona_tweets.csv')
+#lisbon_mock_up_data = pd.read_csv('data/lisbon_tweets.csv')
+#all_data = pd.concat([barcelona_mockup_data, lisbon_mock_up_data])
+#all_data.to_csv('data/social_media_data.csv', index=False)
 
 # Fitness Evaluation
 def calculate_fitness(row):
@@ -116,5 +156,6 @@ for gen in range(generations):
     print(f"Simulating generation {gen + 1}")
     current_generation = simulate_generation(current_generation)
     current_generation['fitness'] = current_generation.apply(calculate_fitness, axis=1)
+
 
 current_generation.to_csv('data/evolved_posts.csv', index=False)
